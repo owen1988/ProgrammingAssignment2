@@ -3,6 +3,12 @@
 
 ## Write a short comment describing this function
 
+
+## set the value of the matrix
+## get the value of the matrix
+## set the value of the inverse
+## get the value of the inverse
+
 makeCacheMatrix <- function(x = matrix()) {
 
       
@@ -22,6 +28,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+
+##  calculates the inverse of a matrix created with the above function. 
+##   If  it has been calculated, gets the result from the cache and skips the computation. 
+##  Otherwise, it calculates the inverse of the matrix and sets the value of the inverse in the cache via the setinverse function
 
 cacheSolve <- function(x, ...) {
 
